@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9so-5m-n5T">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="A2j-Vz-2so">
+            <objects>
+                <viewController id="9so-5m-n5T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bQC-fk-Ehq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EQ3-KP-nTO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="deviceWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.13" alpha="1" colorSpace="deviceWhite"/>
+                        <constraints>
+                            <constraint firstItem="EQ3-KP-nTO" firstAttribute="leading" secondItem="bpQ-5L-66e" secondAttribute="leading" id="1nj-FU-gQe"/>
+                            <constraint firstItem="EQ3-KP-nTO" firstAttribute="bottom" secondItem="bpQ-5L-66e" secondAttribute="top" constant="44" id="IKs-Qb-zLJ"/>
+                            <constraint firstItem="EQ3-KP-nTO" firstAttribute="trailing" secondItem="bpQ-5L-66e" secondAttribute="trailing" id="mRq-UT-tCV"/>
+                            <constraint firstItem="EQ3-KP-nTO" firstAttribute="top" secondItem="bQC-fk-Ehq" secondAttribute="top" id="p1p-49-sBU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bpQ-5L-66e"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A1v-88-0WD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-66" y="407"/>
+        </scene>
+    </scenes>
+</document>
